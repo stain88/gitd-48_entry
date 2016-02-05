@@ -1,0 +1,96 @@
+#window-size {
+  width: 640px;
+  height: 480px;
+  margin: 0 auto;
+  display: none;
+}
+
+.jumbotron h1, h2, h3, h4, h5 {
+  font-family: "Black Ops One", cursive;
+}
+
+#start-button {
+  font-family: "Megrim", cursive;
+  margin-top: 50px;
+}
+
+#options-button {
+  font-family: "Megrim", cursive;
+}
+
+#btmain-button {
+  font-family: "Megrim", cursive;
+  margin-top: 50px;
+}
+
+.progress {
+  display: none;
+}
+
+.well-cstm {
+  display: none;
+  margin-top: -20px;
+  min-height: 380px;
+  max-height: 380px;
+  overflow-y: scroll;
+  font-family: "Audiowide", cursive;
+}
+
+.info {
+  display: none;
+  margin-top: -15px;
+}
+
+.input {
+  display: none;
+  margin-top: -22px;
+}
+
+form {
+  width: 600px;
+  margin-left: 20px;
+}
+
+input.form-control {
+  border: none;
+  background-color: #272b30;
+  color: #eee;
+  font-family: "Audiowide", cursive;
+}
+
+ul.console {
+  list-style-type: none;
+}
+
+p {
+  font-family: "Creepster", cursive;
+}
+
+p#options-text {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+span.red {
+  color: #ff0000;
+}
+
+span.green {
+  color: #00ff00;
+}
+
+span.turquoise {
+  color: turquoise;
+}
+
+span.default {
+  color: #c8c8c8;
+}
+.win-jumb {
+  display: none;
+  width:640px;
+  height:480px;
+}
+.win-jumb h1 {
+  margin-top: 120px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GiTD #48</title>
+  <link href='https://fonts.googleapis.com/css?family=Black+Ops+One|Audiowide|Megrim|Creepster' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/slate/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src='https://cdn1.kongregate.com/javascripts/kongregate_api.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+  <div id="window-size">
+    <div class="jumbotron text-center" id="jumb-title">
+      <h1>GiTD #48</h1>
+    </div>
+    <button id="start-button" class="btn btn-lg btn-primary btn-block">Start</button>
+    <button id="options-button" class="btn btn-lg btn-primary btn-block">Options</button>
+    <div class="info">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-4">
+            <h3 id="zone">Zone One</h3>
+          </div>
+          <div class="col-xs-4">
+            <h3>Score: <span id="score">0</span></h3>
+          </div>
+          <div class="col-xs-2">
+            <h3 id="time">Time</h3>
+          </div>
+          <div class="col-xs-2"></div>
+        </div>
+      </div>
+    </div>
+    <div class="progress progress-striped active">
+      <div class="progress-bar progress-bar-success" style="width: 0%"></div>
+    </div>
+    <div class="well well-cstm">
+      <ul class="console">
+        <li>
+          <span>> </span><span id="caption"></span><span class="cursor">|</span>
+        </li>
+      </ul>
+    </div>
+    <div class="input">
+      <form class="form-horizontal" id="query-form" autocomplete="off">
+        <div class="form-group">
+          <div class="input-group">
+            <span class="input-group-addon">~</span>
+            <input id="query" class="form-control" type="text" autofocus>
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button" id="submit">Submit</button>
+            </span>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="win-screen">
+      <div class="jumbotron win-jumb text-center">
+        <h1>Congratulations</h1>
+        <h3>You have made it out</h3>
+        <h4>Your final score is <span id='final'>0</span></h4>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
